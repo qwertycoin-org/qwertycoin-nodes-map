@@ -1,3 +1,25 @@
+# Archived legacy Qwertycoin node map
+
+> [!CAUTION]
+> **Do not deploy this service.** It was last maintained in 2019, uses obsolete
+> Node.js dependencies and stores observed peer IP addresses in a file cache.
+> It has been replaced by the privacy-conscious Qwertycoin Node Map.
+
+Use the maintained service and source instead:
+
+- Live map: [nodes.qwertycoin.org](https://nodes.qwertycoin.org/)
+- Source: [qwertycoin-node-map](https://github.com/qwertycoin-org/qwertycoin-node-map)
+
+The replacement never persists or exposes raw peer IP addresses. It publishes
+only aggregate location data, binds snapshots to the expected Mainnet genesis
+and Core version, and has current tests and hardened deployment guidance.
+
+This repository is retained only as historical source. The old FreeGeoIP,
+daemon RPC, raw-IP cache and Node.js instructions below are **not supported
+operational guidance**.
+
+---
+
 ![image](https://cdn.qwertycoin.org/images/press/other/qwc-github-3.png)
 #### Master Build Status
 [![Build Status](https://travis-ci.org/qwertycoin-org/qwertycoin-nodes-map.svg?branch=master)](https://travis-ci.org/qwertycoin-org/qwertycoin-nodes-map) [![Build status](https://ci.appveyor.com/api/projects/status/78ot0ppti2e16ur9/branch/master?svg=true)](https://ci.appveyor.com/project/Qwertycoin/qwertycoin-nodes-map/branch/master)
